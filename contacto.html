@@ -31,35 +31,39 @@
         </div>
 
         <div class="header__texto">
-            <h2 class="no-margin">¿QUIÉNES SOMOS?</h2>
+            <h2 class="no-margin">Contactanos</h2>
             <p>Aprende de los expertos con las mejores recetas yc onsejos</p>
         </div>
     </header>
 
-    <!--DE AQUI CAMBIA LA PAGINA PRINCIPAL-->
+<!--DE AQUI CAMBIA LA PAGINA PRINCIPAL-->
 
     <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+        <div class="contacto-bg"></div>
+        
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre:</label>
+                <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre">
+            </div><!--FIND DE CAMPO-->
 
-        <h3 class="centrar-texto">Sobre Nosotros</h3>
+            <div class="campo">
+                <label class="campo__label" for="email">Email:</label>
+                <input class="campo__field" type="email" placeholder="Tu Email" id="email">
+            </div><!--FIND DE CAMPO-->
 
-        <div class="sobre-nosotros"><!--CLASE PADRE -->
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje:</label>
+                <textarea class="campo__field campo__field--textarea"></textarea>
+            </div><!--FIND DE CAMPO-->
 
-            <div class="sobre-nosotros__imagen">
-                <img src="img/nosotros.jpg" alt="">
-            </div><!--FINDE PARTE IZQUIERDA-->
-
-            <div class="sobre-nosotros__texto">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi a illum dignissimos illo unde neque
-                    expedita consectetur, omnis provident quia ducimus, molestias, adipisci deleniti saepe nulla eius
-                    magnam eum velit?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi a illum dignissimos illo unde neque
-                    expedita consectetur, omnis provident quia ducimus, molestias, adipisci deleniti saepe nulla eius
-                    magnam eum velit?</p>
-            </div><!--FINDE PARTE IZQUIERDA-->
-        </div>
-
+            <div class="campo">
+                <label class="campo__label" for="enviar">Enviar:</label>
+                <input type="submit" class="boton boton--primario" value="Email">
+            </div><!--FIND DE CAMPO-->
+        </form>
     </main>
-
 
     <footer class="footer">
         <div class="contenedor">
